@@ -11,8 +11,8 @@ In order to properly deploy this infrastructure the following packages are requi
 | docker         | 19.03.5-ce, build 633a0ea838 or higher |
 | docker-compose | 2.4.1 or higher                        |
 
-In order to install docker engine follow the [tutorial][docker_tutorial].
-In order to install docker-compose follow the [tutorial][docker_compose_tutorial].
+- In order to install docker engine follow the [tutorial][docker_tutorial].
+- In order to install docker-compose follow the [tutorial][docker_compose_tutorial].
 
 ## Setup
 
@@ -43,6 +43,10 @@ Note: The script must have execution privilages. Run the following command as su
 ```sh
 sudo chmod +x launch.sh
 ```
+
+## To be added
+- Security on orion context broker via keyrock
+- Mosquitto certificates
 
 [docker_tutorial]: https://docs.docker.com/engine/install/ubuntu/
 [docker_compose_tutorial]: < https://docs.docker.com/compose/install/>
