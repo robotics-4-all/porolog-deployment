@@ -28,6 +28,8 @@ Note: You will be prompted to enter the user's password twice.
 
 The **MOSQUITTO_USERNAME & MOSQUITTO_USERNAME** must in the .env file be updated accordingly to match the credentials given in the pwfile so as the json-iot-agent is able to connect to the mosquitto broker. Optionally the other environmental variables can also be changed.
 
+Finally the **host** environmental variable must be set to must the **domain_name/ip** of the host machine.
+
 ## Execution
 
 To create the infrastructure simply execute the following command:
